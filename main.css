@@ -1,28 +1,71 @@
-body{
-    background-color: #000;
-    }
+body{ background-color: #fff;
+	  color:#0d3d56 ;
+	  font-family: 'Rubik', sans-serif;
+	}
+
 
 
 /*nav bar shadow*/
 #navbarwhole{
 	border-bottom:0px dashed white;
 	box-shadow: 1px 1px 40px #888;
+	background-color: rgba(250,250,250,0.65);
 }
 
 a.navbar-brand img{
 	width:150px;
 	margin-top: -10px;
     /*padding: 0px;*/
-/   *border: 1px dashed white;*/
+    /*border: 1px dashed white;*/
 }
 
-div.googledoc iframe{
-	/*position: absolute;;*/
+
+
+
+/*fronpage image inside splash*/
+#frontpage-image{
 	height: 100%;
-	width: 100%
-    margin-top:0px;
-    /*float: right;*/
+    background-image: url(http://s6.postimg.org/55u3xjfcx/IMG_0669.jpg);
+    background-size: cover;
+    text-align: center;
+    padding-top: 9em;
+    margin-bottom: 0em;
+}
+
+  #frontpage-image h1{
+	  font-size: 60pt; color: #0d3d56;
+	  font-family: 'Rubik', sans-serif;
   }
+
+  #frontpage-image h2{
+	  font-size: 30pt; color: #0d3d56;
+	  font-family: 'Rubik', sans-serif;
+  }
+
+  #frontpage-main-text{
+  	/*border:1pt dashed blue;*/
+  	padding-top: 200px;
+  	padding-bottom: 200px;
+  	text-align: center;
+  }
+
+  #frontpage-main-text h1{
+  	font-size: 40px;
+  	
+  }
+
+
+
+
+
+#secondjumbotron{ 
+	border: 2px dotted black;
+    background-image: url(http://s6.postimg.org/jnrrownlt/shufa.jpg)
+}
+
+
+
+/*front page first jumbotron starts here*/
 div.jumbotron {
 	/*margin-top: 0%;*/
     /*border:2pt dotted blue;*/
@@ -36,33 +79,3 @@ div.jumbotron p{
 	padding-left:20pt;
 
 }
-
-#todobox{
-	/*padding-top:5%;*/
-	width: 100%;
-	/*border: 2px dotted red;*/
-	margin-left: -10%;
-	margin-top: 3%;
-}
-
-#secondjumbotron{ 
-	border: 2px dotted black;
-    background-image: url(http://s6.postimg.org/jnrrownlt/shufa.jpg)
-}
-
-
-
-div.splash{
-	height: 40em;
-    background-image: url("http://s6.postimg.org/55u3xjfcx/IMG_0669.jpg");
-    background-size: cover;
-    text-align: center;
-    padding-top: 9em;
-    margin-bottom: 0em;
-}
-
-#introwords{
-	font-size: 70pt; color:0d3d56;
-    font-family: 'Rubik', sans-serif;
-}
-   
