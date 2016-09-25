@@ -1,81 +1,65 @@
-body{ background-color: #fff;
-	  color:#0d3d56 ;
-	  font-family: 'Rubik', sans-serif;
-	}
-
-
+body {
+  background-color: #fff;
+  color: #0d3d56;
+  font-family: 'Rubik', sans-serif;
+}
 
 /*nav bar shadow*/
-#navbarwhole{
-	border-bottom:0px dashed white;
-	box-shadow: 1px 1px 40px #888;
-	background-color: rgba(250,250,250,0.65);
+#navbarwhole {
+  border-bottom: 0px dashed white;
+  box-shadow: 1px 1px 40px #888;
+  background-color: rgba(250, 250, 250, 0.65);
 }
+a.navbar-brand img {
+  width: 150px;
+  margin-top: -10px;    /*padding: 0px;*/
 
-a.navbar-brand img{
-	width:150px;
-	margin-top: -10px;
-    /*padding: 0px;*/
-    /*border: 1px dashed white;*/
+  /*border: 1px dashed white;*/
 }
-
-
-
 
 /*fronpage image inside splash*/
-#frontpage-image{
-	height: 100%;
-    background-image: url(http://s6.postimg.org/55u3xjfcx/IMG_0669.jpg);
-    background-size: cover;
-    text-align: center;
-    padding-top: 9em;
-    margin-bottom: 0em;
+#frontpage-image {
+  height: 100%;
+  background-image: url(http://s6.postimg.org/55u3xjfcx/IMG_0669.jpg);
+  background-size: cover;
+  text-align: center;
+  padding-top: 9em;
+  margin-bottom: 0em;
 }
-
-  #frontpage-image h1{
-	  font-size: 60pt; color: #0d3d56;
-	  font-family: 'Rubik', sans-serif;
-  }
-
-  #frontpage-image h2{
-	  font-size: 30pt; color: #0d3d56;
-	  font-family: 'Rubik', sans-serif;
-  }
-
-  #frontpage-main-text{
-  	/*border:1pt dashed blue;*/
-  	padding-top: 200px;
-  	padding-bottom: 200px;
-  	text-align: center;
-  }
-
-  #frontpage-main-text h1{
-  	font-size: 40px;
-  	
-  }
-
-
-
-
-
-#secondjumbotron{ 
-	border: 2px dotted black;
-    background-image: url(http://s6.postimg.org/jnrrownlt/shufa.jpg)
+#frontpage-image h1 {
+  font-size: 60pt;
+  color: #0d3d56;
+  font-family: 'Rubik', sans-serif;
 }
+#frontpage-image h2 {
+  font-size: 30pt;
+  color: #0d3d56;
+  font-family: 'Rubik', sans-serif;
+}
+#frontpage-main-text {
 
-
+  /*border:1pt dashed blue;*/
+  padding-top: 200px;
+  padding-bottom: 200px;
+  text-align: center;
+}
+#frontpage-main-text h1 {
+  font-size: 40px;
+}
+#secondjumbotron {
+  border: 2px dotted black;
+  background-image: url(http://s6.postimg.org/jnrrownlt/shufa.jpg)
+}
 
 /*front page first jumbotron starts here*/
 div.jumbotron {
-	/*margin-top: 0%;*/
-    /*border:2pt dotted blue;*/
-    margin-bottom: 0;
 
+  /*margin-top: 0%;*/
+
+  /*border:2pt dotted blue;*/
+  margin-bottom: 0;
 }
-
-div.jumbotron p{
-
-	margin: auto;
-	padding-left:20pt;
-
+div.jumbotron p {
+  margin: auto;
+  padding-left: 20pt;
 }
