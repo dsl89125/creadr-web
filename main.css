@@ -1,0 +1,75 @@
+body{
+background-color: #000;
+/*background-image: url(http://s6.postimg.org/jnrrownlt/shufa.jpg);*/
+}
+
+
+/*nav bar shadow*/
+#navbarwhole{border-bottom:0px dashed white;
+box-shadow: 1px 1px 40px #888;}
+
+/*.navbar-custom {*/
+    /*background-color:transparent;*/
+    /*color:#fff;*/
+    /*border-radius:0;}*/
+
+/* a.navbar-brand{
+	border-style: solid;
+	border-color: black;
+}*/
+
+a.navbar-brand img{
+	width:150px;
+margin-top: -10px;
+/*padding: 0px;*/
+/*border: 1px dashed white;*/
+}
+
+div.googledoc iframe{
+	/*position: absolute;;*/
+	height: 100%;
+	width: 100%
+    margin-top:0px;
+    /*float: right;*/
+  }
+div.jumbotron {
+	/*margin-top: 0%;*/
+/*border:2pt dotted blue;*/
+margin-bottom: 0;
+
+}
+
+div.jumbotron p{
+
+	margin: auto;
+	padding-left:20pt;
+
+}
+
+#todobox{
+	/*padding-top:5%;*/
+	width: 100%;
+	/*border: 2px dotted red;*/
+	margin-left: -10%;
+	margin-top: 3%;
+}
+
+#secondjumbotron{ 
+	border: 2px dotted black;
+background-image: url(http://s6.postimg.org/jnrrownlt/shufa.jpg)
+}
+
+
+
+div.splash{
+	height: 40em;
+background-image: url("http://s6.postimg.org/55u3xjfcx/IMG_0669.jpg");
+background-size: cover;
+text-align: center;
+padding-top: 9em;
+margin-bottom: 0em;
+}
+
+#introwords{font-size: 70pt; color:0d3d56;
+font-family: 'Rubik', sans-serif;}
+/*div.splash h1{font-size: 40pt;}*/
