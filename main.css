@@ -46,6 +46,67 @@ a.navbar-brand img {
 #frontpage-main-text h1 {
   font-size: 40px;
 }
+
+/* name logo of all team member */
+#teamintro img{
+  float: middle;
+  margin-left: 20px;
+  width: 70px;
+  /*border:3px solid black;*/
+  border-radius: 100%;
+  background-color: white;
+}
+#teamintro h1,
+#teamintro p {
+  display: inline;
+  /*vertical-align: top;*/
+}
+
+#teamintro .btn{
+  border:1px solid white;
+  border-radius: 24px;
+  font-size: 20px;
+  padding: 10px;
+  margin:5px;
+  margin-left: 0px; 
+
+}
+
+.buttoncontainer{
+  width: 65%;
+  margin-left: 0px;
+  margin-top: 7%;
+  padding: 0px;
+}
+
+.btn-language {
+  background-color: #673ab7;
+}
+.btn-language2 {
+  background-color: #009688;
+}
+
+.btn-sport {
+  background-color: red;
+}
+.btn-sport2 {
+  background-color: #00bcd4;
+}
+.btn-program {
+  background-color: orange;
+}
+.btn-music {
+  background-color: green;
+}
+.btn-carrer {
+  background-color: #abb3ed;
+}
+/*#section7 h1 img, 
+#section6 h1 img{
+  background-color: white;
+}*/
+
+
 #secondjumbotron {
   border: 2px dotted black;
   background-image: url(http://s6.postimg.org/jnrrownlt/shufa.jpg)
