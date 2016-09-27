@@ -26,7 +26,17 @@ a.navbar-brand img {
   padding-top: 9em;
   margin-bottom: 0em;
 }
+@media screen and (orientation: portrait){
+  #frontpage-image {
+  background-image: url(https://s6.postimg.org/5eoxf7yip/IMG_0664.jpg);
+  padding-top: 35em;
+ }
+}
+
+
+}
 #frontpage-image h1 {
+  /*border: 1px dashed red;*/
   font-size: 60pt;
   color: #0d3d56;
   font-family: 'Rubik', sans-serif;
@@ -62,6 +72,7 @@ a.navbar-brand img {
   /*vertical-align: top;*/
 }
 
+
 #teamintro .btn{
   border:1px solid white;
   border-radius: 24px;
@@ -73,7 +84,7 @@ a.navbar-brand img {
 }
 
 .buttoncontainer{
-  width: 65%;
+  width: auto;
   margin-left: 0px;
   margin-top: 7%;
   padding: 0px;
