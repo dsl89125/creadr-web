@@ -57,6 +57,14 @@ a.navbar-brand img {
   font-size: 40px;
 }
 
+#frontpage-add-to-chrome-container{
+  height: 500px;
+}
+#frontpage-add-to-chrome-btn{
+font-size: 35px;
+margin-top: 250px;
+}
+
 /* name logo of all team member */
 #teamintro img{
   float: middle;
