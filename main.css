@@ -138,6 +138,7 @@ div.jumbotron p {
 
 
 
+
 /* New CSS specifically for the links section */
 .links-section {
   background: #EFEFEF;
@@ -172,6 +173,7 @@ div.jumbotron p {
   display: inline-block;
   padding-top: 84px;
   font-size: 1.8em;
+  text-decoration: none;
 }
 
 .links-section ul li a:hover {
@@ -221,6 +223,7 @@ div.jumbotron p {
 }
 .hvr-shutter-out-vertical:hover, .hvr-shutter-out-vertical:focus, .hvr-shutter-out-vertical:active {
   color: white;
+  text-decoration: none;
 }
 .hvr-shutter-out-vertical:hover:before, .hvr-shutter-out-vertical:focus:before, .hvr-shutter-out-vertical:active:before {
   -webkit-transform: scaleY(1);
