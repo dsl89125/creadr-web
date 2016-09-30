@@ -58,11 +58,11 @@ a.navbar-brand img {
 }
 
 #frontpage-add-to-chrome-container{
-  height: 500px;
+  /*height: 500px;*/
 }
 #frontpage-add-to-chrome-btn{
 font-size: 35px;
-margin-top: 250px;
+/*margin-top: 250px;*/
 }
 
 /* name logo of all team member */
@@ -87,7 +87,7 @@ margin-top: 250px;
   font-size: 20px;
   padding: 10px;
   margin:5px;
-  margin-left: 0px; 
+  margin-left: 0px;
 
 }
 
@@ -120,7 +120,7 @@ margin-top: 250px;
 .btn-carrer {
   background-color: #abb3ed;
 }
-/*#section7 h1 img, 
+/*#section7 h1 img,
 #section6 h1 img{
   background-color: white;
 }*/
@@ -142,4 +142,98 @@ div.jumbotron {
 div.jumbotron p {
   margin: auto;
   padding-left: 20pt;
+}
+
+
+
+
+/* New CSS specifically for the links section */
+.links-section {
+  background: #EFEFEF;
+  width: 100% !important;
+  text-align: center;
+}
+
+.links-section h1 {
+  text-align: center;
+  font-weight: bold;
+  margin: 2em auto;
+}
+
+.links-section ul {
+  padding-left: 0px;
+}
+
+.links-section ul li {
+  list-style: none;
+  float: left;
+  height: 200px;
+  display:block;
+  margin-bottom: 20px;
+
+}
+
+.links-section ul li a {
+  background: #FFF;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+  padding-top: 84px;
+  font-size: 1.8em;
+  text-decoration: none;
+}
+
+.links-section ul li a:hover {
+  text-decoration: none;
+}
+
+
+
+
+
+/* Custom hover animation CSS - Shutter Out Vertical */
+.hvr-shutter-out-vertical {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  background: #e1e1e1;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+.hvr-shutter-out-vertical:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #2098d1;
+  -webkit-transform: scaleY(0);
+  transform: scaleY(0);
+  -webkit-transform-origin: 50%;
+  transform-origin: 50%;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.hvr-shutter-out-vertical:hover, .hvr-shutter-out-vertical:focus, .hvr-shutter-out-vertical:active {
+  color: white;
+  text-decoration: none;
+}
+.hvr-shutter-out-vertical:hover:before, .hvr-shutter-out-vertical:focus:before, .hvr-shutter-out-vertical:active:before {
+  -webkit-transform: scaleY(1);
+  transform: scaleY(1);
 }
