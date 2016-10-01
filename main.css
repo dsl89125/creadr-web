@@ -57,6 +57,16 @@ a.navbar-brand img {
   font-size: 40px;
 }
 
+#frontpage-image2 {
+  height: 100%;
+  background-image: url(https://s6.postimg.org/fono3gww1/IMG_0661.jpg);
+  background-size: cover;
+  text-align: center;
+  padding-top: 9em;
+  margin-bottom: 0em;
+}
+
+/*for frontpage add to chrome button*/
 #frontpage-add-to-chrome-container{
   /*height: 500px;*/
 }
@@ -65,13 +75,18 @@ font-size: 35px;
 /*margin-top: 250px;*/
 }
 
+
+
+
+
+
 /* name logo of all team member */
 #teamintro img{
   float: middle;
   margin-left: 20px;
   width: 70px;
   border:3px solid grey;
-  border-radius: 100%;
+  border-radius: 50%;
   background-color: white;
 }
 #teamintro h1,
@@ -80,7 +95,7 @@ font-size: 35px;
   /*vertical-align: top;*/
 }
 
-
+/*team member skills bagers*/
 #teamintro .btn{
   border:1px solid white;
   border-radius: 24px;
@@ -98,6 +113,7 @@ font-size: 35px;
   padding: 0px;
 }
 
+/*team member skills bagers background color*/
 .btn-language {
   background-color: #673ab7;
 }
