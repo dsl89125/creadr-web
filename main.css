@@ -57,18 +57,19 @@ a.navbar-brand img {
   
 }
 #frontpage-main-text h1 {
-  /*add some space for formatting*/
+  /*add some space for formatting*ǎěǔǚ*/
   margin-top: 10%;
   font-size: 40px;
 
 }
 
 /*instruction video*/
-#frontpage-instruction-video{
+#frontpage-instruction-video {
   margin:0 auto;
   padding:0;
   width: 80%;
 }
+
 #frontpage-video-well{
 background: black;
 border-color: transparent;
@@ -80,7 +81,7 @@ border-color: transparent;
 }
 #frontpage-add-to-chrome-btn {
   margin-top: 10%;
-  background-color: rgba(240, 240, 240, 0.9);
+  background-color: rgba(20, 20, 20, 1);
   border: 2.5px solid black; 
 }
 #teamintro img {
