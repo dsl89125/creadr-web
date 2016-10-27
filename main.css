@@ -32,7 +32,7 @@ a.navbar-brand img {
 @media screen and (orientation:portrait) {
   #frontpage-image {
     background-image: url(https://s6.postimg.org/5eoxf7yip/IMG_0664.jpg);
-    padding-top: 5em
+    padding-top: 9em
   }
 }
 .row-centered {
@@ -63,6 +63,94 @@ a.navbar-brand img {
 
 }
 
+/*fronpage scroll*/
+#frontpagescroll a {
+  padding-top: 80px;
+}
+#scrollbarspan{
+bottom: 55px;
+}
+#frontpagescroll a span {
+  position: fixed;
+  /*margin-top: 65%;*/
+ 
+  
+  right: 70px;
+  
+  width: 30px;
+  height: 30px;
+  margin-left: -12px;
+  border-left: 3px solid #eee;
+  border-bottom: 3px solid #eee;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  -webkit-animation: sdb 2s infinite;
+  animation: sdb 2s infinite;
+  opacity: 0;
+  box-sizing: border-box;
+}
+#frontpagescroll a span:nth-of-type(1) {
+  bottom: 65px;
+  -webkit-animation-delay: 0s;
+  animation-delay: 0s;
+}
+#frontpagescroll a span:nth-of-type(2) {
+  bottom: 50px;;
+  -webkit-animation-delay: .25s;
+  animation-delay: .25s;
+}
+#frontpagescroll a span:nth-of-type(3) {
+  bottom: 35px;
+  -webkit-animation-delay: .5s;
+  animation-delay: .5s;
+}
+@-webkit-keyframes sdb {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes sdb {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+
+
+
+/*frontpage scroll*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*instruction video*/
 #frontpage-instruction-video {
   margin:0 auto;
@@ -71,7 +159,7 @@ a.navbar-brand img {
 }
 
 #frontpage-video-well{
-background: black;
+background: #eee;
 border-color: transparent;
 }
 
