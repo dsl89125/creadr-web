@@ -3,6 +3,9 @@ body {
   color: #0d3d56;
   font-family: 'Rubik', sans-serif
 }
+#frontpageMainContent{
+  margin:5% 10% 0 10%;
+}
 .navbar-default {
   background-image: none;
   background-color: rgba(240, 240, 240, 0.55)
@@ -65,19 +68,29 @@ a.navbar-brand img {
 }
 
 /*fronpage scroll*/
-/*#frontpagescroll a {
-  padding-top: 80px;
+
+#frontpagescroll 
+{
+height: 65%;
 }
-#scrollbarspan{
-bottom: 55px;
+#frontpagescroll a:hover{opacity: 0.7;
 }
-*/
-#frontpagescroll a:hover{opacity: 0.7}
+#frontpagescroll a span:hover{
+border: 1px solid #fff;
+background-color: green;  
+}
+/*#frontpagescroll a span:hover:after {
+  width: 18px;
+  height: 18px;
+  margin: -12px 0 0 -8px;
+  border-left: 3px solid #fff;
+  border-bottom: 3px solid #fff;
+}*/
 
 #frontpagescroll a span {
   position: absolute;
-  bottom: -180%;
-  right: 20px;
+  bottom: 20px;
+  right: 50%;
   width: 46px;
   height: 46px;
   margin-left: -23px;
@@ -92,9 +105,9 @@ bottom: 55px;
   top: 50%;
   left: 50%;
   content: '';
-  width: 16px;
-  height: 16px;
-  margin: -12px 0 0 -8px;
+  width: 10px;
+  height: 10px;
+  margin: -6px 0 0 -5px;
   border-left: 3px solid #fff;
   border-bottom: 3px solid #fff;
   -webkit-transform: rotate(-45deg);
@@ -162,6 +175,10 @@ bottom: 55px;
 
 /*instruction video*/
 #frontpage-video-well h1{
+  padding-right: 0;
+  line-height: 18px;
+  font-size: 22px;
+  margin-right: -15%;
   width:40%;
   float:right;
   text-align: center;
@@ -170,6 +187,7 @@ bottom: 55px;
 }
 #frontpage-instruction-video {
   margin:0 auto;
+  margin-left: 15%;
   padding:0;
   width: 60%;
   float:left;
@@ -180,6 +198,7 @@ bottom: 55px;
   width:100%;
   text-align: center;
   padding: 5%;
+  margin-right:inherit;
 }
  #frontpage-instruction-video {
   margin:0 auto;
