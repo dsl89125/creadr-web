@@ -26,39 +26,51 @@ a.navbar-brand img {
 
 #frontpage-image {
   height: 95%;
-  background-image: url(http://s6.postimg.org/55u3xjfcx/IMG_0669.jpg);
+  background-image: url(https://s6.postimg.org/xv03ed5oh/background.jpg);
   background-size: cover;
   text-align: center;
   padding-top: 9em;
   margin-bottom: 0em;
   display:block;
 }
-@media screen and (orientation:portrait) {
-  #frontpage-image {
-    background-image: url(https://s6.postimg.org/5eoxf7yip/IMG_0664.jpg);
-    padding-top: 9em
-  }
-}
+
+
+
 .row-centered {
   text-align: center
 }
 /*frontPage text, learning chinese easy etc*/
 #frontpage-image h1 {
   font-size: 60pt;
-  color: #0d3d56;
+  color: #eee;
   font-family: 'Rubik', sans-serif
 }
 #frontpage-image h2 {
   font-size: 30pt;
-  color: #0d3d56;
+  color: #eee;
   font-family: 'Rubik', sans-serif
 }
 
+@media screen and (orientation:portrait) {
+  #frontpage-image {
+    background-image: url(https://s6.postimg.org/5eoxf7yip/IMG_0664.jpg);
+    padding-top: 9em;
+  }
+  #frontpage-image h1 {
+  font-size: 60pt;
+  color: #0d3d56;
+  font-family: 'Rubik', sans-serif;
+  }
+  #frontpage-image h2 {
+  font-size: 30pt;
+  color: #0d3d56;
+  font-family: 'Rubik', sans-serif;
+  }
+}
 #frontpage-main-text {
   /*padding-top: 200px;
   padding-bottom: 200px;*/
-  text-align: center;
-  
+  text-align: center;  
 }
 #frontpage-main-text h1 {
   /*add some space for formatting*ǎěǔǚ*/
@@ -192,7 +204,11 @@ background-color: green;
   width: 60%;
   float:left;
 }
-
+#frontpage-video-well{
+background-color: : #eee;
+border-color: transparent;
+margin-left: -10%;
+}
 @media screen and (orientation:portrait) {
  #frontpage-video-well h1{
   width:100%;
@@ -207,13 +223,13 @@ background-color: green;
   margin-left: 15%;
 }
 
-
-
-
 #frontpage-video-well{
 background-color: : #eee;
 border-color: transparent;
 }
+
+
+
 
 }
 #frontpage-add-to-chrome-container {
@@ -222,7 +238,8 @@ border-color: transparent;
 #frontpage-add-to-chrome-btn {
   margin-top: 10%;
   background-color: rgba(20, 20, 20, 1);
-  border: 2.5px solid black; 
+  /*border: 2.5px solid black; */
+  box-shadow: -10px 10px 20px #888;
 }
 #teamintro img {
   float: middle;
@@ -290,7 +307,8 @@ margin: 0 auto;
 .links-section {
   background: #EFEFEF;
   width: 100% !important;
-  text-align: center
+  text-align: center;
+  box-shadow: 1px 1px 40px #888;
 }
 .links-section h1 {
   text-align: center;
