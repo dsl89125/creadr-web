@@ -21,3 +21,45 @@ $(function() {
     $('body').animate({ scrollTop: $($(this).attr('href')).offset().top}, 500, 'linear');
   });
 });
+
+
+$(document).ready(function(){
+    $('#fireUp').click(function(){
+      var name1 = $('#exampleInputName2').val();
+      var email = $('#exampleInputEmail1').val();
+      var response = $('#exampleTextarea').val();
+
+    $.post("https://script.google.com/macros/s/AKfycbz-N82FYoSxrV-SGHtEvMSYjutHn-QDrPUV3K5VFpCrfhLXMk61/exec",
+        {       
+          name: name1,
+          email: email,
+          response:response
+        },
+        function(data,status){
+            alert("Thank you for your feedback " + name1 + "\nSubmit Status Is: " + status);
+            $( '.form-group' ).each(function(){this.reset();});//clear form after submit
+        });
+    });
+});
+
+
+// $(document).ready(function(){
+//     $('#fireUp').click(function(){
+//       var name1 = $('#exampleInputName2').serializeArray();
+//       var email = $('#exampleInputEmail1').serializeArray();
+//       var response = $('#exampleTextarea').serializeArray();
+
+//     $.ajax(
+
+//       url:"https://script.google.com/macros/s/AKfycbz-N82FYoSxrV-SGHtEvMSYjutHn-QDrPUV3K5VFpCrfhLXMk61/exec",
+//        type:'POST' 
+//         data:{       
+//           name: name1,
+//           email: email,
+//           response:response },
+//         success: {
+//             alert("Thank you for your feedback " + name1 + "\nSubmit Status Is: " + status);
+          
+//     });
+// });
+
